@@ -297,11 +297,43 @@ input[type=submit] {
     border: 0 none;
 }
 
+
+@media only screen and (min-width: 980px) {
+/*general laptop*/
+
+/*header laptop*/
+/*footer laptop*/
+/*sticky footer laptop*/
+/*sidebar laptop*/
+/*main laptop*/
+/*portfolio page laptop*/
+/*content laptop*/
+
+}
+
+
+
+@media only screen and (min-width: 640px) and ( max-width: 768px) {
+/*general tablet*/
+
+/*header tablet*/
+/*footer tablet*/
+/*sticky footer tablet*/
+/*sidebar tablet*/
+/*main tablet*/
+/*portfolio page tablet*/
+/*content tablet*/
+
+}
+
+
+
+
 @media only screen and (max-width: 640px) {
     /*general mobile*/
     body {
     line-height: 24px;
-}
+    }
     .container {
         clear: both;
         margin: 0 auto;
@@ -353,7 +385,7 @@ input[type=submit] {
     /*sidebar mobile*/
     .sidebar {
         padding: 20px;
-        width: 90%;
+        width: 92%;
         max-width: 640px;
         float: left;
         margin: 18px 18px 24px 18px;
@@ -404,50 +436,12 @@ input[type=submit] {
         height: auto;
     
     }
-    /*portfolio page mobile*/
-    /*content mobile*/
+    /*portfolio page mobile -----------*/
+
+
+    
+    /*content mobile ------------------*/
     
 
 
 }
-
-
-
-@media only screen and (min-width: 640px) and ( max-width: 768px) {
-/*general tablet*/
-
-/*header tablet*/
-/*footer tablet*/
-/*sticky footer tablet*/
-/*sidebar tablet*/
-/*main tablet*/
-/*portfolio page tablet*/
-/*content tablet*/
-
-
-
-
-
-
-}
-
-@media only screen and (min-width: 980px) {
-/*general laptop*/
-
-/*header laptop*/
-/*footer laptop*/
-/*sticky footer laptop*/
-/*sidebar laptop*/
-/*main laptop*/
-/*portfolio page laptop*/
-/*content laptop*/
-
-
-
-
-
-
-}
-
-
-
