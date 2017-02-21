@@ -1,2 +1,4 @@
 # Basic-Profile-MediaQ
-Basic profile done with Media Queries 
+
+## Live Link
+https://flintsable.github.io/Basic-Portfolio-MediaQ/
