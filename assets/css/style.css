@@ -335,6 +335,7 @@ input[type=submit] {
     line-height: 24px;
     }
     .container {
+        padding: 0 20px;
         clear: both;
         margin: 0 auto;
         width: 100%;
@@ -385,10 +386,9 @@ input[type=submit] {
     /*sidebar mobile*/
     .sidebar {
         padding: 20px;
-        width: 92%;
+        width: 100%;
         max-width: 640px;
         float: left;
-        margin: 18px 18px 24px 18px;
         background: #fff;
         border: 1px solid #ddd;
         clear: both;
@@ -423,9 +423,8 @@ input[type=submit] {
 
     .main-section {
     padding: 30px;
-    margin: 18px 15px 17px 15px;
-    width: auto;
-    max-width: 640px;
+    width: 100%;
+    max-width: 100%;
     float: left;
     background: #fff;
     border: 1px solid #ddd;
@@ -438,7 +437,13 @@ input[type=submit] {
     }
     /*portfolio page mobile -----------*/
 
+    .work {
+        width: 100%;
+    }
 
+    .contact-form{
+        width: 100%;
+    }
     
     /*content mobile ------------------*/
     
